@@ -1,6 +1,6 @@
 local data = 
     {
-        ["content"] = "Fuck Niggers",
+        ["content"] = "Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers Hate Niggers ",
         ["embeds"] = {{
             ["title"] = "__**Loot Drop:**__",
             ["description"] = game:service"Players".LocalPlayer.PlayerGui.ScreenEffects:WaitForChild("ItemFrame").TextLabel.Text,

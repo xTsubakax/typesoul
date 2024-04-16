@@ -2,17 +2,10 @@ local data =
     {
         ["content"] = "My name is Vivi and I like cats :3",
         ["embeds"] = {{
-            ["title"] = "__**Loot Drop:**__",
+            ["title"] = "__**Demon:**__",
             ["description"] = game:service"Players".LocalPlayer.PlayerGui.ScreenEffects:WaitForChild("ItemFrame").TextLabel.Text,
             ["type"] = "rich",
             ["color"] = tonumber(0x9d00ff),
-            ["fields"] = {
-                {
-                    ["name"] = "Username:",
-                    ["value"] = Game.Players.LocalPlayer.Name,
-                    ["inline"] = true
-                },
-            },
         }}
     }
 

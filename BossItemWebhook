@@ -1,9 +1,22 @@
+sentences = {
+    "Shadows danced in the corners, whispering secrets of the forgotten.",
+    "A chill ran down her spine as she heard footsteps approaching, but there was no one there.",
+    "The old house creaked and groaned as if it held ancient secrets within its walls.",
+    "In the mirror, she caught a glimpse of a figure standing behind her, but when she turned around, no one was there.",
+    "The moon cast eerie shadows through the barren trees, creating an atmosphere of unease.",
+    "A child's laughter echoed through the empty halls of the abandoned asylum, sending shivers down their spine.",
+    "As the fog rolled in, strange shapes began to emerge, lurking just beyond sight.",
+    "The sound of scratching came from the attic, though she knew no one had been up there in years.",
+    "Every night, the same nightmare haunted his sleep, a dark figure with glowing eyes reaching out to him from the darkness.",
+    "Something brushed against his leg in the water, icy fingers wrapping around his ankle before disappearing into the depths below."
+}
+
 local data = 
     {
         ["content"] = "My name is Vivi and I like cats :3",
         ["embeds"] = {{
-            ["title"] = "__**Demon:**__",
-            ["description"] = game:service"Players".LocalPlayer.PlayerGui.ScreenEffects:WaitForChild("ItemFrame").TextLabel.Text,
+            ["title"] = string.format("__**%s:**__", game:service"Players".LocalPlayer.PlayerGui.ScreenEffects:WaitForChild("ItemFrame").TextLabel.Text),
+            ["description"] = sentences[math.random(1, #sentences)],
             ["type"] = "rich",
             ["color"] = tonumber(0x9d00ff),
         }}

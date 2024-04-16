@@ -15,7 +15,7 @@ local data =
     {
         ["content"] = "My name is Vivi and I like cats :3",
         ["embeds"] = {{
-            ["title"] = string.format("__**%s:**__", game:service"Players".LocalPlayer.PlayerGui.ScreenEffects:WaitForChild("ItemFrame").TextLabel.Text),
+            ["title"] = string.format("__**%s**__", game:service"Players".LocalPlayer.PlayerGui.ScreenEffects:WaitForChild("ItemFrame").TextLabel.Text),
             ["description"] = sentences[math.random(1, #sentences)],
             ["type"] = "rich",
             ["color"] = tonumber(0x9d00ff),

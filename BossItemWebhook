@@ -25,7 +25,7 @@ local data =
             ["title"] = string.format("**%s**", str),
             ["description"] = sentences[math.random(1, #sentences)],
             ["type"] = "rich",
-            ["color"] = tonumber(0x9d00ff),
+            ["color"] = tonumber(0x000000),
         }}
     }
 

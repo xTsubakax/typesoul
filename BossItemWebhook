@@ -1,0 +1,30 @@
+local data = 
+    {
+        ["content"] = "Fuck Niggers",
+        ["embeds"] = {{
+            ["title"] = "__**Loot Drop:**__",
+            ["description"] = game:service"Players".LocalPlayer.PlayerGui.ScreenEffects.ItemFrame.TextLabel.Text,
+            ["type"] = "rich",
+            ["color"] = tonumber(0x9d00ff),
+            ["fields"] = {
+                {
+                    ["name"] = "Username:",
+                    ["value"] = Game.Players.LocalPlayer.Name,
+                    ["inline"] = true
+                },
+            },
+        }}
+    }
+
+local newdata = game:service('HttpService'):JSONEncode(data)
+
+local headers = {
+        ["content-type"] = "application/json"
+}
+
+request({
+	Url = "https://discord.com/api/webhooks/1229628144428781598/5jDsj-9tvURjkZqYHwg8bGg680C6Hq1T9uP7MsJDLos36dB6KytonRISh6lGE6vHow4M",
+    Body = newdata,
+	Method = "POST",
+    Headers = headers
+})

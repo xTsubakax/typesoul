@@ -1,1 +1,1 @@
-loadstring(game:HttpGetAsync(''))()
+loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/xTsubakax/typesoul/main/AutoBossRaid'))()

@@ -25,6 +25,7 @@ local function soloraid()
     
     workspace.NPCs.RaidBoss.Kisuke.ClickDetector.MaxActivationDistance = math.huge
     fireclickdetector(workspace.NPCs.RaidBoss.Kisuke.ClickDetector)
+    task.wait(settings.waitcheck)
     client:WaitForChild('Kisuke'):FireServer('Yes')
     task.wait(settings.waitcheck)
     if game.PlaceId == katakura then

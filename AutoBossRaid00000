@@ -7,7 +7,7 @@ local serverlist = {}
 local client = game:service'Players'.LocalPlayer
 local teleport = game:service'TeleportService'
 local katakura = 14069678431
-webhook = 'https://discord.com/api/webhooks/1229664864511852574/3BTPgJE2IheIJlXtzGN3mbapeQA1fyGYmw5kHCjzMnX0Dg1j8l6LZz24P6I_lnOlgrls'
+webhook = settings.webhooklink
 
 -- funcs
 local function failsafe()

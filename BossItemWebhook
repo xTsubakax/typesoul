@@ -20,6 +20,7 @@ sentences = {
     "Something brushed against his leg in the water, icy fingers wrapping around his ankle before disappearing into the depths below."
 }
 
+webhookurl = webhook
 str = string.gsub(game:service"Players".LocalPlayer.PlayerGui.ScreenEffects:WaitForChild("ItemFrame").TextLabel.Text, "obtained.", "")
 
 local data = 
@@ -40,7 +41,7 @@ local headers = {
 }
 
 request({
-	Url = "https://discord.com/api/webhooks/1229664864511852574/3BTPgJE2IheIJlXtzGN3mbapeQA1fyGYmw5kHCjzMnX0Dg1j8l6LZz24P6I_lnOlgrls",
+	Url = webhookurl,
     Body = newdata,
 	Method = "POST",
     Headers = headers

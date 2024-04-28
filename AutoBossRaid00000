@@ -44,7 +44,7 @@ local function duoraid()
 
     workspace.NPCs.RaidBoss.Kisuke.ClickDetector.MaxActivationDistance = math.huge
     fireclickdetector(workspace.NPCs.RaidBoss.Kisuke.ClickDetector)
-    client.Kisuke:FireServer("Yes")
+    client:WaitForChild('Kisuke'):FireServer('Yes')
     task.wait(settings.waitcheck)
     if game.PlaceId == katakura then
         failsafe()
